@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "allowSyntheticDefaultImports": true,
+      "allowUnreachableCode": false,
+      "downlevelIteration": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "node",
+      "lib": [
+        "ES2015",
+        "ES2016",
+        "ES2017",
+        "ES2018",
+        "ES2019",
+        "ES2020",
+        "DOM",
+        "DOM.Iterable"
+      ],
+      "noEmit": true,
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noUnusedLocals": false,
+      "jsx": "react-jsx",
+      "baseUrl": "./",
+      "paths": {
+        "~/*": ["./*"]
+      },
+      "pretty": true,
+      "skipLibCheck": true,
+      "sourceMap": true,
+      "strict": true,
+      "strictNullChecks": true
+    },
+    "exclude": ["node_modules", "dist"]
+  }
